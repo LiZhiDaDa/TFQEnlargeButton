@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7B3559E233C92FD00B44E06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B3559D233C92FD00B44E06 /* AppDelegate.m */; };
+		F7B355A1233C92FD00B44E06 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B355A0233C92FD00B44E06 /* SceneDelegate.m */; };
+		F7B355A4233C92FD00B44E06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B355A3233C92FD00B44E06 /* ViewController.m */; };
+		F7B355A7233C92FD00B44E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B355A5233C92FD00B44E06 /* Main.storyboard */; };
+		F7B355A9233C92FE00B44E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B355A8233C92FE00B44E06 /* Assets.xcassets */; };
+		F7B355AC233C92FE00B44E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B355AA233C92FE00B44E06 /* LaunchScreen.storyboard */; };
+		F7B355AF233C92FF00B44E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B355AE233C92FF00B44E06 /* main.m */; };
+		F7B355B9233C92FF00B44E06 /* TFQEnlargeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B355B8233C92FF00B44E06 /* TFQEnlargeButtonTests.m */; };
+		F7B355C4233C92FF00B44E06 /* TFQEnlargeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B355C3233C92FF00B44E06 /* TFQEnlargeButtonUITests.m */; };
+		F7B355D4233C937D00B44E06 /* UIButton+TFQClickArea.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B355D2233C937D00B44E06 /* UIButton+TFQClickArea.m */; };
+		F7B355DA233C938600B44E06 /* TFQEnlargeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B355D8233C938600B44E06 /* TFQEnlargeButton.m */; };
+		F7B355DB233C938600B44E06 /* TFQClickAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B355D9233C938600B44E06 /* TFQClickAreaButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7B355B5233C92FF00B44E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B35591233C92FD00B44E06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B35598233C92FD00B44E06;
+			remoteInfo = TFQEnlargeButton;
+		};
+		F7B355C0233C92FF00B44E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B35591233C92FD00B44E06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B35598233C92FD00B44E06;
+			remoteInfo = TFQEnlargeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7B35599233C92FD00B44E06 /* TFQEnlargeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFQEnlargeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B3559C233C92FD00B44E06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7B3559D233C92FD00B44E06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7B3559F233C92FD00B44E06 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F7B355A0233C92FD00B44E06 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F7B355A2233C92FD00B44E06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7B355A3233C92FD00B44E06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7B355A6233C92FD00B44E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7B355A8233C92FE00B44E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7B355AB233C92FE00B44E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7B355AD233C92FE00B44E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B355AE233C92FF00B44E06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7B355B4233C92FF00B44E06 /* TFQEnlargeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQEnlargeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B355B8233C92FF00B44E06 /* TFQEnlargeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQEnlargeButtonTests.m; sourceTree = "<group>"; };
+		F7B355BA233C92FF00B44E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B355BF233C92FF00B44E06 /* TFQEnlargeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQEnlargeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B355C3233C92FF00B44E06 /* TFQEnlargeButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQEnlargeButtonUITests.m; sourceTree = "<group>"; };
+		F7B355C5233C92FF00B44E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B355D2233C937D00B44E06 /* UIButton+TFQClickArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TFQClickArea.m"; sourceTree = "<group>"; };
+		F7B355D3233C937D00B44E06 /* UIButton+TFQClickArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TFQClickArea.h"; sourceTree = "<group>"; };
+		F7B355D6233C938600B44E06 /* TFQClickAreaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFQClickAreaButton.h; sourceTree = "<group>"; };
+		F7B355D7233C938600B44E06 /* TFQEnlargeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFQEnlargeButton.h; sourceTree = "<group>"; };
+		F7B355D8233C938600B44E06 /* TFQEnlargeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFQEnlargeButton.m; sourceTree = "<group>"; };
+		F7B355D9233C938600B44E06 /* TFQClickAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFQClickAreaButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7B35596233C92FD00B44E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B355B1233C92FF00B44E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B355BC233C92FF00B44E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7B35590233C92FD00B44E06 = {
+			isa = PBXGroup;
+			children = (
+				F7B3559B233C92FD00B44E06 /* TFQEnlargeButton */,
+				F7B355B7233C92FF00B44E06 /* TFQEnlargeButtonTests */,
+				F7B355C2233C92FF00B44E06 /* TFQEnlargeButtonUITests */,
+				F7B3559A233C92FD00B44E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7B3559A233C92FD00B44E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7B35599233C92FD00B44E06 /* TFQEnlargeButton.app */,
+				F7B355B4233C92FF00B44E06 /* TFQEnlargeButtonTests.xctest */,
+				F7B355BF233C92FF00B44E06 /* TFQEnlargeButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7B3559B233C92FD00B44E06 /* TFQEnlargeButton */ = {
+			isa = PBXGroup;
+			children = (
+				F7B355D5233C938600B44E06 /* TFQEnlargeButton */,
+				F7B355D1233C937D00B44E06 /* Category */,
+				F7B3559C233C92FD00B44E06 /* AppDelegate.h */,
+				F7B3559D233C92FD00B44E06 /* AppDelegate.m */,
+				F7B3559F233C92FD00B44E06 /* SceneDelegate.h */,
+				F7B355A0233C92FD00B44E06 /* SceneDelegate.m */,
+				F7B355A2233C92FD00B44E06 /* ViewController.h */,
+				F7B355A3233C92FD00B44E06 /* ViewController.m */,
+				F7B355A5233C92FD00B44E06 /* Main.storyboard */,
+				F7B355A8233C92FE00B44E06 /* Assets.xcassets */,
+				F7B355AA233C92FE00B44E06 /* LaunchScreen.storyboard */,
+				F7B355AD233C92FE00B44E06 /* Info.plist */,
+				F7B355AE233C92FF00B44E06 /* main.m */,
+			);
+			path = TFQEnlargeButton;
+			sourceTree = "<group>";
+		};
+		F7B355B7233C92FF00B44E06 /* TFQEnlargeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7B355B8233C92FF00B44E06 /* TFQEnlargeButtonTests.m */,
+				F7B355BA233C92FF00B44E06 /* Info.plist */,
+			);
+			path = TFQEnlargeButtonTests;
+			sourceTree = "<group>";
+		};
+		F7B355C2233C92FF00B44E06 /* TFQEnlargeButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7B355C3233C92FF00B44E06 /* TFQEnlargeButtonUITests.m */,
+				F7B355C5233C92FF00B44E06 /* Info.plist */,
+			);
+			path = TFQEnlargeButtonUITests;
+			sourceTree = "<group>";
+		};
+		F7B355D1233C937D00B44E06 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F7B355D2233C937D00B44E06 /* UIButton+TFQClickArea.m */,
+				F7B355D3233C937D00B44E06 /* UIButton+TFQClickArea.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F7B355D5233C938600B44E06 /* TFQEnlargeButton */ = {
+			isa = PBXGroup;
+			children = (
+				F7B355D6233C938600B44E06 /* TFQClickAreaButton.h */,
+				F7B355D7233C938600B44E06 /* TFQEnlargeButton.h */,
+				F7B355D8233C938600B44E06 /* TFQEnlargeButton.m */,
+				F7B355D9233C938600B44E06 /* TFQClickAreaButton.m */,
+			);
+			path = TFQEnlargeButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7B35598233C92FD00B44E06 /* TFQEnlargeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B355C8233C92FF00B44E06 /* Build configuration list for PBXNativeTarget "TFQEnlargeButton" */;
+			buildPhases = (
+				F7B35595233C92FD00B44E06 /* Sources */,
+				F7B35596233C92FD00B44E06 /* Frameworks */,
+				F7B35597233C92FD00B44E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFQEnlargeButton;
+			productName = TFQEnlargeButton;
+			productReference = F7B35599233C92FD00B44E06 /* TFQEnlargeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7B355B3233C92FF00B44E06 /* TFQEnlargeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B355CB233C92FF00B44E06 /* Build configuration list for PBXNativeTarget "TFQEnlargeButtonTests" */;
+			buildPhases = (
+				F7B355B0233C92FF00B44E06 /* Sources */,
+				F7B355B1233C92FF00B44E06 /* Frameworks */,
+				F7B355B2233C92FF00B44E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7B355B6233C92FF00B44E06 /* PBXTargetDependency */,
+			);
+			name = TFQEnlargeButtonTests;
+			productName = TFQEnlargeButtonTests;
+			productReference = F7B355B4233C92FF00B44E06 /* TFQEnlargeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7B355BE233C92FF00B44E06 /* TFQEnlargeButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B355CE233C92FF00B44E06 /* Build configuration list for PBXNativeTarget "TFQEnlargeButtonUITests" */;
+			buildPhases = (
+				F7B355BB233C92FF00B44E06 /* Sources */,
+				F7B355BC233C92FF00B44E06 /* Frameworks */,
+				F7B355BD233C92FF00B44E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7B355C1233C92FF00B44E06 /* PBXTargetDependency */,
+			);
+			name = TFQEnlargeButtonUITests;
+			productName = TFQEnlargeButtonUITests;
+			productReference = F7B355BF233C92FF00B44E06 /* TFQEnlargeButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7B35591233C92FD00B44E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Thread_Fight_Queue;
+				TargetAttributes = {
+					F7B35598233C92FD00B44E06 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F7B355B3233C92FF00B44E06 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F7B35598233C92FD00B44E06;
+					};
+					F7B355BE233C92FF00B44E06 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F7B35598233C92FD00B44E06;
+					};
+				};
+			};
+			buildConfigurationList = F7B35594233C92FD00B44E06 /* Build configuration list for PBXProject "TFQEnlargeButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7B35590233C92FD00B44E06;
+			productRefGroup = F7B3559A233C92FD00B44E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7B35598233C92FD00B44E06 /* TFQEnlargeButton */,
+				F7B355B3233C92FF00B44E06 /* TFQEnlargeButtonTests */,
+				F7B355BE233C92FF00B44E06 /* TFQEnlargeButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7B35597233C92FD00B44E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B355AC233C92FE00B44E06 /* LaunchScreen.storyboard in Resources */,
+				F7B355A9233C92FE00B44E06 /* Assets.xcassets in Resources */,
+				F7B355A7233C92FD00B44E06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B355B2233C92FF00B44E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B355BD233C92FF00B44E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7B35595233C92FD00B44E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B355DB233C938600B44E06 /* TFQClickAreaButton.m in Sources */,
+				F7B355A4233C92FD00B44E06 /* ViewController.m in Sources */,
+				F7B3559E233C92FD00B44E06 /* AppDelegate.m in Sources */,
+				F7B355DA233C938600B44E06 /* TFQEnlargeButton.m in Sources */,
+				F7B355D4233C937D00B44E06 /* UIButton+TFQClickArea.m in Sources */,
+				F7B355AF233C92FF00B44E06 /* main.m in Sources */,
+				F7B355A1233C92FD00B44E06 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B355B0233C92FF00B44E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B355B9233C92FF00B44E06 /* TFQEnlargeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B355BB233C92FF00B44E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B355C4233C92FF00B44E06 /* TFQEnlargeButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7B355B6233C92FF00B44E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7B35598233C92FD00B44E06 /* TFQEnlargeButton */;
+			targetProxy = F7B355B5233C92FF00B44E06 /* PBXContainerItemProxy */;
+		};
+		F7B355C1233C92FF00B44E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7B35598233C92FD00B44E06 /* TFQEnlargeButton */;
+			targetProxy = F7B355C0233C92FF00B44E06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7B355A5233C92FD00B44E06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7B355A6233C92FD00B44E06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7B355AA233C92FE00B44E06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7B355AB233C92FE00B44E06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7B355C6233C92FF00B44E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7B355C7233C92FF00B44E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7B355C9233C92FF00B44E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQEnlargeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlz.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7B355CA233C92FF00B44E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQEnlargeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlz.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7B355CC233C92FF00B44E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQEnlargeButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.TFQEnlargeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFQEnlargeButton.app/TFQEnlargeButton";
+			};
+			name = Debug;
+		};
+		F7B355CD233C92FF00B44E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQEnlargeButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.TFQEnlargeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFQEnlargeButton.app/TFQEnlargeButton";
+			};
+			name = Release;
+		};
+		F7B355CF233C92FF00B44E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQEnlargeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.TFQEnlargeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFQEnlargeButton;
+			};
+			name = Debug;
+		};
+		F7B355D0233C92FF00B44E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQEnlargeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.TFQEnlargeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFQEnlargeButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7B35594233C92FD00B44E06 /* Build configuration list for PBXProject "TFQEnlargeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B355C6233C92FF00B44E06 /* Debug */,
+				F7B355C7233C92FF00B44E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B355C8233C92FF00B44E06 /* Build configuration list for PBXNativeTarget "TFQEnlargeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B355C9233C92FF00B44E06 /* Debug */,
+				F7B355CA233C92FF00B44E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B355CB233C92FF00B44E06 /* Build configuration list for PBXNativeTarget "TFQEnlargeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B355CC233C92FF00B44E06 /* Debug */,
+				F7B355CD233C92FF00B44E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B355CE233C92FF00B44E06 /* Build configuration list for PBXNativeTarget "TFQEnlargeButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B355CF233C92FF00B44E06 /* Debug */,
+				F7B355D0233C92FF00B44E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7B35591233C92FD00B44E06 /* Project object */;
+}
