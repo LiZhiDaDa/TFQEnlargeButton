@@ -151,8 +151,8 @@
 		F7B355D1233C937D00B44E06 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				F7B355D2233C937D00B44E06 /* UIButton+TFQClickArea.m */,
 				F7B355D3233C937D00B44E06 /* UIButton+TFQClickArea.h */,
+				F7B355D2233C937D00B44E06 /* UIButton+TFQClickArea.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 			isa = PBXGroup;
 			children = (
 				F7B355D6233C938600B44E06 /* TFQClickAreaButton.h */,
+				F7B355D9233C938600B44E06 /* TFQClickAreaButton.m */,
 				F7B355D7233C938600B44E06 /* TFQEnlargeButton.h */,
 				F7B355D8233C938600B44E06 /* TFQEnlargeButton.m */,
-				F7B355D9233C938600B44E06 /* TFQClickAreaButton.m */,
 			);
 			path = TFQEnlargeButton;
 			sourceTree = "<group>";

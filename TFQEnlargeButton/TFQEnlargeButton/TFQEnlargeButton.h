@@ -18,19 +18,13 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) UIEdgeInsets clickEdgeInsets;
 
-/**
- *  成倍扩大点击区域，传值<=1点击区域不变
- */
+///成倍扩大点击区域，传值<=1点击区域不变
 @property (nonatomic, assign) CGFloat clickScale;
 
-/**
- *  成倍扩大横向点击区域，传值<=1点击区域不变
- */
+///成倍扩大横向点击区域，传值<=1点击区域不变
 @property (nonatomic, assign) CGFloat clickWidthScale;
 
-/**
- *  成倍扩大纵向点击区域，传值<=1点击区域不变
- */
+///成倍扩大纵向点击区域，传值<=1点击区域不变
 @property (nonatomic, assign) CGFloat clickHeightScale;
 
 ///是否显示点击区域，供调试使用，默认为NO，半透明的红色区域就是点击区域
