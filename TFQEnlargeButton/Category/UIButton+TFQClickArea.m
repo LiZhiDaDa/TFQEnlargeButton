@@ -34,7 +34,7 @@ static char *TFQShowClickArea = "showClickArea";
     clickScale -= 1;
     CGFloat width = self.bounds.size.width * clickScale;
     CGFloat height = self.bounds.size.height * clickScale;
-    self.clickEdgeInsets = UIEdgeInsetsMake(-height, -width,-height, -width);
+    self.clickEdgeInsets = UIEdgeInsetsMake(-height, -width, -height, -width);
 }
 
 - (void)setClickWidthScale:(CGFloat)clickWidthScale{
@@ -44,8 +44,7 @@ static char *TFQShowClickArea = "showClickArea";
     }
     clickWidthScale -= 1;
     CGFloat width = self.bounds.size.width * clickWidthScale;
-    CGFloat height = self.bounds.size.height;
-    self.clickEdgeInsets = UIEdgeInsetsMake(-height, -width,-height, -width);
+    self.clickEdgeInsets = UIEdgeInsetsMake(0, -width, 0, -width);
 }
 
 - (void)setClickHeightScale:(CGFloat)clickHeightScale{
@@ -54,9 +53,8 @@ static char *TFQShowClickArea = "showClickArea";
         return;
     }
     clickHeightScale -= 1;
-    CGFloat width = self.bounds.size.width;
     CGFloat height = self.bounds.size.height * clickHeightScale;
-    self.clickEdgeInsets = UIEdgeInsetsMake(-height, -width,-height, -width);
+    self.clickEdgeInsets = UIEdgeInsetsMake(-height, 0, -height, 0);
 }
 
 - (void)setShowClickArea:(BOOL)showClickArea{

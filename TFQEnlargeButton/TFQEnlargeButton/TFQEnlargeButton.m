@@ -65,9 +65,9 @@
         return;
     }
     clickScale -= 1;
-    CGFloat width = self.bounds.size.width;
+    CGFloat width = self.bounds.size.width * clickScale;
     CGFloat height = self.bounds.size.height * clickScale;
-    self.clickEdgeInsets = UIEdgeInsetsMake(-height, -width,-height, -width);
+    self.clickEdgeInsets = UIEdgeInsetsMake(-height, -width, -height, -width);
 }
 
 - (void)setClickWidthScale:(CGFloat)clickWidthScale{
@@ -76,9 +76,8 @@
         return;
     }
     clickWidthScale -= 1;
-    CGFloat width = self.bounds.size.width;
-    CGFloat height = self.bounds.size.height * clickWidthScale;
-    self.clickEdgeInsets = UIEdgeInsetsMake(-height, -width,-height, -width);
+    CGFloat width = self.bounds.size.width * clickWidthScale;
+    self.clickEdgeInsets = UIEdgeInsetsMake(0, -width, 0, -width);
 }
 
 - (void)setClickHeightScale:(CGFloat)clickHeightScale{
@@ -87,9 +86,8 @@
         return;
     }
     clickHeightScale -= 1;
-    CGFloat width = self.bounds.size.width;
     CGFloat height = self.bounds.size.height * clickHeightScale;
-    self.clickEdgeInsets = UIEdgeInsetsMake(-height, -width,-height, -width);
+    self.clickEdgeInsets = UIEdgeInsetsMake(-height, 0, -height, 0);
 }
 
 @end
