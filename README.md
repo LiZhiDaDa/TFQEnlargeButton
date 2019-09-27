@@ -1,6 +1,7 @@
 # TFQEnlargeButton
 扩大UIButton点击区域
 
+[博客地址](https://lizhidada.github.io/2019/09/25/iOS-%E6%89%A9%E5%A4%A7UIbutton%E7%82%B9%E5%87%BB%E5%8C%BA%E5%9F%9F/)
 
 入口为`ViewController`，里边介绍了两种扩大`UIButton`点击区域的方法，其中需要说明的是，`showClickArea`属性的默认值为`NO`，设置`YES`的话就会显示当前`button`的可响应点击区域
 
