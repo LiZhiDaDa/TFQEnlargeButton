@@ -24,9 +24,13 @@
 @property (nonatomic, assign) BOOL showClickArea;
 ```
 ## 扩大点击区域的两种方式
+
 > 实现原理：重写系统```- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event```方法，实现对可响应区域的改变
 
 ### 1、添加`UIButton`分类
+
+导入头文件`#import "TFQEnlargeButton.h"`，然后用`TFQEnlargeButton`创建`button`
+
 - 优点
 	- 使用方便，导入头文件，设置点击区域即可
 - 缺点
@@ -34,6 +38,7 @@
 	- 分类重写父类方法之后，每个`UIButton`对象都会调用分类的方法，修改容易出问题
 	
 ### 2、子类继承`UIButton`父类
+导入头文件`#import "UIButton+TFQClickArea.h"`然后直接使用属性
 
 - 优点
 	- 不侵入系统的`UIButton`类，功能清晰
