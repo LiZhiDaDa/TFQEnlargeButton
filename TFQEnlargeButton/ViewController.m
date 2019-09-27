@@ -34,7 +34,7 @@
         [_friendshipBtn addTarget:self action:@selector(didClickFriendship) forControlEvents:UIControlEventTouchUpInside];
         _friendshipBtn.backgroundColor = [UIColor blackColor];
         _friendshipBtn.clickScale = 2;
-        _friendshipBtn.showClickArea = NO;
+        _friendshipBtn.showClickArea = YES;
     }
     return _friendshipBtn;
 }
@@ -45,7 +45,7 @@
         [_friendshipBtn1 setTitle:@"朋友圈1" forState:UIControlStateNormal];
         [_friendshipBtn1 addTarget:self action:@selector(didClickFriendship) forControlEvents:UIControlEventTouchUpInside];
         _friendshipBtn1.backgroundColor = [UIColor blackColor];
-        _friendshipBtn1.clickScale = 2;
+        _friendshipBtn1.clickWidthScale = 2;
         _friendshipBtn1.showClickArea = YES;
     }
     return _friendshipBtn1;
